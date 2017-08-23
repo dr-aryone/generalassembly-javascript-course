@@ -1,0 +1,17 @@
+section {
+  padding: 20px;
+  border-bottom: 5px solid;
+}
+
+.target {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+}
+
+.classer.special {
+  background: linear-gradient(#C7D3DC,#5B798E);
+}

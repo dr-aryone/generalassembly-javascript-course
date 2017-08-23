@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <title>Practice using jQuery</title>
+</head>
+<body>
+  <header>
+    <h1>Practice using jQuery</h1>
+  </header>
+  <main>
+    <section>
+        <header>
+          <h2>Adding and Removing Classes</h2>
+          <p>Add the class 'hinge' to the red square</p>
+        </header>
+        <button id="add-class-control" class="btn btn-primary">Add Class</button>
+        <button id="remove-class-control" class="btn btn-primary">Remove Class</button>
+        <button id="class-toggle-control" class="btn btn-primary">Toggle Class</button>
+        <div id="classer" class="target classer animated">Make me special!!</div>
+    </section>
+
+    <section>
+      <header><h2>Hiding</h2></header>
+        <button id="hide-control" class="btn btn-primary">Hide the div</button>
+        <button id="show-control" class="btn btn-primary">Show the div</button>
+        <button id="hide-toggle-control" class="btn btn-primary">Hide/show</button>
+
+        <div id="hider" class="target">Hide Me!!</div>
+    </section>
+
+    <section>
+        <header><h2>Fading</h2></header>
+        <button id="fade-out-control" class="btn btn-primary">Fade Out the div</button>
+        <button id="fade-in-control" class="btn btn-primary">Fade In the div</button>
+        <button id="fade-toggle-control" class="btn btn-primary">Fade in/out</button>
+        <div id="fader" class="target">Fade Me!!</div>
+    </section>
+
+    <section>
+        <header><h2>Sliding</h2></header>
+        <button id="slide-up-control" class="btn btn-primary">Slide div up</button>
+        <button id="slide-down-control" class="btn btn-primary">Slide div down</button>
+        <button id="slide-toggle-control" class="btn btn-primary">slide up/down</button>
+        <div id="slider" class="target">Fade Me!!</div>
+    </section>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.0/jquery.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+</html>

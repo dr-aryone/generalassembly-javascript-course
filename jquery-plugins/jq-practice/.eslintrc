@@ -1,0 +1,9 @@
+{
+  "env": {
+    "browser": true,
+  },
+  "rules": {
+     "no-underscore-dangle" : 0,
+     "max-len": [1, 180, 4],
+  }
+}
